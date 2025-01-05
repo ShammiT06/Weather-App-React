@@ -33,7 +33,7 @@ function Weather()
 
 
     return(<div className="bg-red-100 flex justify-center items-center">
-        <div className="m-20 p-10 bg-gray-600 w-[400px] h-[590px]  bg-opacity-25 border rounded-2xl">
+        <div className="m-20 p-10 bg-gray-600 w-[400px] h-[600px]  bg-opacity-25 border rounded-2xl">
             <h1 className="text-3xl font-serif text-center font-bold m-2 text-orange-400">Weather Report <p className="animate-bounce">⛅</p></h1>
             <p className="text-s font-mono text-center font-bold text-red-600">I can Give You Weather Report About Your City</p>
             <div className="flex flex-wrap justify-center items-center m-2">
@@ -47,24 +47,24 @@ function Weather()
                 </div>
             </div>
             <div className="flex justify-between m-10">
-            <div className="flex items-center gap-1  bg-black text-white bg-opacity-25 rounded-xl p-2">    
+            <div className="flex items-center gap-1">    
             <img width="48" height="48" src="https://img.icons8.com/fluency/48/partly-cloudy-day.png" alt="partly-cloudy-day"/>
-            <h1>{weather}</h1>
+            <h1 className="font-serif font-bold text-xl">{weather}</h1>
             </div>
-            <div className="flex items-center gap-1  bg-black text-white bg-opacity-25 rounded-xl p-2">    
+            <div className="flex items-center gap-1">    
             <img width="50" height="50" src="https://img.icons8.com/stickers/50/temperature.png" alt="temperature"/>
-            <h1>{temperature}</h1>
+            <h1 className="font-serif font-bold text-xl">{temperature}</h1>
             </div>
             </div>
             <div className="flex justify-between gap-3 m-10 ">
-            <div className="flex items-center  bg-black text-white p-2 rounded-xl bg-opacity-25">    
+            <div className="flex items-center">    
             <img width="48" height="48" src="https://img.icons8.com/fluency/48/info-squared.png" alt="info-squared"/>
-            <h1>{info}</h1>
+            <h1 className="font-serif font-bold text-xl">{info}</h1>
             </div>
            
-            <div className="flex items-center gap-1  bg-black text-white p-2 rounded-xl bg-opacity-25">    
+            <div className="flex items-center gap-2">    
             <img width="48" height="48" src="https://img.icons8.com/color/48/wind.png" alt="wind"/>
-            <h1>{speed}</h1>
+            <h1 className="font-serif font-bold text-xl">{speed}</h1>
             </div>
             </div>
 
